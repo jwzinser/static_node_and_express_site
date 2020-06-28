@@ -1,0 +1,97 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Random quote generator",
+            "description": "Generate random quote and show it every 3 seconds or manualy",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Java Script"
+            ],
+            "live_link": "https://jwzinser.github.io/random-quote",
+            "github_link": "https://github.com/jwzinser/random-quote",
+            "image_urls": [
+                "/static/images/prj0_thumbnail.png",
+                "/static/images/prj0_img_0.png",
+                "/static/images/prj0_img_1.png",
+                "/static/images/prj0_img_2.png"
+            ]
+        },
+
+        {
+            "id": "1",
+            "project_name": "List pagination and filtering",
+            "description": "Display and paginate a list of people. Search by name or mail",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Java Script"
+            ],
+            "live_link": "https://jwzinser.github.io/list_pagination_and_filtering",
+            "github_link": "https://github.com/jwzinser/list_pagination_and_filtering",
+            "image_urls": [
+                "/static/images/prj1_thumbnail.png",
+                "/static/images/prj1_img_0.png",
+                "/static/images/prj1_img_1.png",
+                "/static/images/prj1_img_2.png"
+            ]
+        },
+
+        {
+            "id": "2",
+            "project_name": "Interactive form",
+            "description": "Validation form",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Java Script"
+            ],
+            "live_link": "https://jwzinser.github.io/interactive_form",
+            "github_link": "https://github.com/jwzinser/interactive_form",
+            "image_urls": [
+                "/static/images/prj2_thumbnail.png",
+                "/static/images/prj2_img_0.png",
+                "/static/images/prj2_img_1.png",
+                "/static/images/prj2_img_2.png"
+            ]
+        },
+
+        {
+            "id": "3",
+            "project_name": "OOP game",
+            "description": "A game where you have tu guess a phrase and enter it usin on screen keyboard",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Java Script"
+            ],
+            "live_link": "https://jwzinser.github.io/oop_game",
+            "github_link": "https://github.com/jwzinser/oop_game",
+            "image_urls": [
+                "/static/images/prj3_thumbnail.png",
+                "/static/images/prj3_img_0.png",
+                "/static/images/prj3_img_1.png",
+                "/static/images/prj3_img_2.png"
+            ]
+        },
+
+        {
+            "id": "4",
+            "project_name": "Public API request",
+            "description": "Generate a contact list reading the info of each contact from an API",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Java Script"],
+            "live_link": "https://jwzinser.github.io/public_api_request",
+            "github_link": "https://github.com/jwzinser/public_api_request",
+            "image_urls": [
+                "/static/images/prj4_thumbnail.png",
+                "/static/images/prj4_img_0.png",
+                "/static/images/prj4_img_1.png",
+                "/static/images/prj4_img_2.png"
+            ]
+        }
+    ]
+}
