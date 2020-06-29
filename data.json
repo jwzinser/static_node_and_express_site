@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": "0",
+            "id": 0,
             "project_name": "Random quote generator",
             "description": "Generate random quote and show it every 3 seconds or manualy",
             "technologies": [
@@ -20,7 +20,7 @@
         },
 
         {
-            "id": "1",
+            "id": 1,
             "project_name": "List pagination and filtering",
             "description": "Display and paginate a list of people. Search by name or mail",
             "technologies": [
@@ -39,7 +39,7 @@
         },
 
         {
-            "id": "2",
+            "id": 2,
             "project_name": "Interactive form",
             "description": "Validation form",
             "technologies": [
@@ -47,8 +47,8 @@
                 "CSS",
                 "Java Script"
             ],
-            "live_link": "https://jwzinser.github.io/interactive_form",
-            "github_link": "https://github.com/jwzinser/interactive_form",
+            "live_link": "https://jwzinser.github.io/interactive-form",
+            "github_link": "https://github.com/jwzinser/interactive-form",
             "image_urls": [
                 "/static/images/prj2_thumbnail.png",
                 "/static/images/prj2_img_0.png",
@@ -58,7 +58,7 @@
         },
 
         {
-            "id": "3",
+            "id": 3,
             "project_name": "OOP game",
             "description": "A game where you have tu guess a phrase and enter it usin on screen keyboard",
             "technologies": [
@@ -66,7 +66,7 @@
                 "CSS",
                 "Java Script"
             ],
-            "live_link": "https://jwzinser.github.io/oop_game",
+            "live_link": "https://jwzinser.github.io/oop_game/",
             "github_link": "https://github.com/jwzinser/oop_game",
             "image_urls": [
                 "/static/images/prj3_thumbnail.png",
@@ -77,7 +77,7 @@
         },
 
         {
-            "id": "4",
+            "id": 4,
             "project_name": "Public API request",
             "description": "Generate a contact list reading the info of each contact from an API",
             "technologies": [
