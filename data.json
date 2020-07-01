@@ -12,10 +12,10 @@
             "live_link": "https://jwzinser.github.io/random-quote",
             "github_link": "https://github.com/jwzinser/random-quote",
             "image_urls": [
-                "/static/images/prj0_thumbnail.png",
-                "/static/images/prj0_img_0.png",
-                "/static/images/prj0_img_1.png",
-                "/static/images/prj0_img_2.png"
+                "/static/images/correct_size/prj0_thumbnail.png",
+                "/static/images/correct_size/prj0_img_0.png",
+                "/static/images/correct_size/prj0_img_1.png",
+                "/static/images/correct_size/prj0_img_2.png"
             ]
         },
 
@@ -31,10 +31,10 @@
             "live_link": "https://jwzinser.github.io/list_pagination_and_filtering",
             "github_link": "https://github.com/jwzinser/list_pagination_and_filtering",
             "image_urls": [
-                "/static/images/prj1_thumbnail.png",
-                "/static/images/prj1_img_0.png",
-                "/static/images/prj1_img_1.png",
-                "/static/images/prj1_img_2.png"
+                "/static/images/correct_size/prj1_thumbnail.png",
+                "/static/images/correct_size/prj1_img_0.png",
+                "/static/images/correct_size/prj1_img_1.png",
+                "/static/images/correct_size/prj1_img_2.png"
             ]
         },
 
@@ -50,10 +50,10 @@
             "live_link": "https://jwzinser.github.io/interactive-form",
             "github_link": "https://github.com/jwzinser/interactive-form",
             "image_urls": [
-                "/static/images/prj2_thumbnail.png",
-                "/static/images/prj2_img_0.png",
-                "/static/images/prj2_img_1.png",
-                "/static/images/prj2_img_2.png"
+                "/static/images/correct_size/prj2_thumbnail.png",
+                "/static/images/correct_size/prj2_img_0.png",
+                "/static/images/correct_size/prj2_img_1.png",
+                "/static/images/correct_size/prj2_img_2.png"
             ]
         },
 
@@ -69,10 +69,10 @@
             "live_link": "https://jwzinser.github.io/oop_game/",
             "github_link": "https://github.com/jwzinser/oop_game",
             "image_urls": [
-                "/static/images/prj3_thumbnail.png",
-                "/static/images/prj3_img_0.png",
-                "/static/images/prj3_img_1.png",
-                "/static/images/prj3_img_2.png"
+                "/static/images/correct_size/prj3_thumbnail.png",
+                "/static/images/correct_size/prj3_img_0.png",
+                "/static/images/correct_size/prj3_img_1.png",
+                "/static/images/correct_size/prj3_img_2.png"
             ]
         },
 
@@ -87,10 +87,10 @@
             "live_link": "https://jwzinser.github.io/public_api_request",
             "github_link": "https://github.com/jwzinser/public_api_request",
             "image_urls": [
-                "/static/images/prj4_thumbnail.png",
-                "/static/images/prj4_img_0.png",
-                "/static/images/prj4_img_1.png",
-                "/static/images/prj4_img_2.png"
+                "/static/images/correct_size/prj4_thumbnail.png",
+                "/static/images/correct_size/prj4_img_0.png",
+                "/static/images/correct_size/prj4_img_1.png",
+                "/static/images/correct_size/prj4_img_2.png"
             ]
         }
     ]

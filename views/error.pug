@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+    article.grid-container.portfolio-intro
+        h1= error.message
+        h2= error.status 
+            p= error.stack
+
+        a(href='/') ← Back
