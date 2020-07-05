@@ -18,8 +18,14 @@ const mainRoutes = require('./routes');
 const projectRoutes = require('./routes/project');
 
 // Tell our application to use the routes we just defined
+
+
 app.use(mainRoutes);
 app.use('/project', projectRoutes);
+app.use('/project/k',function (req, res, next) {
+    console.log('Time no path:', Date.now())
+    next()
+  })
 
 // Tell our application we want to throw an error if a page or route is not found.
 app.use(function(req, res, next)  {
@@ -28,6 +34,8 @@ app.use(function(req, res, next)  {
     console.error(`An error occured on route ${req.originalUrl} with message: ${error.message} and status: ${error.status}`);
     next(error);
 });
+
+
 
 // Tell our application we want to display an error page if an error occurs
 app.use((error, req, res, next) => {

@@ -1,9 +1,13 @@
 extends layout.pug
+//- Test markup for helper 
+//- How to make image accessible for crawlers and use 'background-size: cover' using one html `img` tag
 
-block content
+block content    
     article.grid-container.portfolio-intro
-        h1= error.message
-        h2= error.status 
-            p= error.stack
+        div(style='background-image: url(/static/images/correct_size/error_color.png);')
 
-        a(href='/') ← Back
+            h1(style=" color: #FFFFFF")= error.message
+            h2(style=" color: #FFFFFF")= error.status 
+                p(style=" color: #FFFFFF")= error.stack
+
+            a(style=" color: #FFFFFF" href='/') ← Back
