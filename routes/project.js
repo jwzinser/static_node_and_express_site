@@ -3,13 +3,12 @@ const router = express.Router();
 
 const app = express();
 
-// Use ES6 object destructering to get the right data
 const { projects } = require('../data.json');
 
 router.get('/:id', (req, res, next) => {
     console.log(req.params.id);
     const projectId = +req.params.id;
-    // If there is no matching ID in projects array throw an error
+
     // Pass the error to the middleware
     if(!(projects[projectId])) {
         const error = new Error('Project ID is missing or not found');
