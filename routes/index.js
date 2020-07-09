@@ -8,15 +8,13 @@ const { projects } = require('../data.json');
 // Set static folder:
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Root path
 router.get('/', (req, res) => {
     res.render('index', {projects});
 })
 
 router.get('/about', (req, res) => {
     res.render('about');
-});
-router.get('/test', (req, res) => {
-    res.render('test');
 });
 
 module.exports = router;

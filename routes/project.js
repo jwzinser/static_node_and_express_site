@@ -5,15 +5,17 @@ const app = express();
 
 const { projects } = require('../data.json');
 
+
+// Project id paths
 router.get('/:id', (req, res, next) => {
     console.log(req.params.id);
     const projectId = +req.params.id;
 
     // Pass the error to the middleware
     if(!(projects[projectId])) {
-        const error = new Error('Project ID is missing or not found');
+        const error = new Error('Project ID not found');
         error.status = 404;
-        console.error(`An error occured on route ${req.originalUrl} with message: ${error.message} and status: ${error.status}`);
+        console.error(`Error on route ${req.originalUrl} with message: ${error.message} and status: ${error.status}`);
         next(error);
     } else {
         const project = projects.find( ({ id }) => id === +projectId );

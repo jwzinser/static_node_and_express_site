@@ -17,7 +17,7 @@ app.use('/project', projectRoutes);
 app.use(function(req, res, next)  {
     const error = new Error("Page is Not Found");
     error.status = 404;
-    console.error(`An error occured on route ${req.originalUrl} with message: ${error.message} and status: ${error.status}`);
+    console.error(`Error on  ${req.originalUrl} with message: ${error.message} and status: ${error.status}`);
     next(error);
 });
 
@@ -30,5 +30,5 @@ app.use((error, req, res, next) => {
 
 // Tell our application that it is running on port {X}. 
 app.listen(port, () => {
-    console.log(`The application is running on localhost:${port}`);
+    console.log(`Running on localhost:${port}`);
 });
